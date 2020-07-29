@@ -9,6 +9,7 @@ import javafx.scene.Cursor;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Paint;
 import javafx.scene.text.Font;
@@ -71,9 +72,25 @@ public class Study7_Button extends Application {
         });
 
 
+        Button button3 = new Button("按钮3");
+        button3.setLayoutX(100);
+        button3.setLayoutY(230);
+
+        button3.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                System.out.println("测试按钮被点击了");
+                if(event.getClickCount() == 2){
+                    System.out.println("双击");
+                }
+            }
+        });
+
+
         Group group = new Group();
         group.getChildren().add(button);
         group.getChildren().add(button2);
+        group.getChildren().add(button3);
 
         Scene scene = new Scene(group);
 
