@@ -10,8 +10,10 @@ public class AppStart {
 //      Study4_Screen.main(args);
 //      Study5_Scene.main(args);
 //      Study6_Group.main(args);
-      Study7_Button.main(args);
+//      Study7_Button.main(args);
 //      Study8_HotKey.main(args);
+//        Study9_Input.main(args);
+        Study10_Layout_AnchorPane.main(args);
     }
 
 }
