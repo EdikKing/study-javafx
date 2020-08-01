@@ -97,6 +97,14 @@
                     <mainClass>cn.edik.weixin.Application</mainClass>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <version>0.0.3</version>
+                <configuration>
+                    <mainClass>AppStart</mainClass>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
