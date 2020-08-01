@@ -18,7 +18,8 @@ public class AppStart {
 //        Study11_Layout_HBox_VbBox.main(args);
 //        Study12_Layout_BorderPane.main(args);
 //        Study13_Layout_FlowPane.main(args);
-        Study14_Layout_GridPane.main(args);
+//        Study14_Layout_GridPane.main(args);
+        Study15_Layout_StackPane.main(args);
     }
 
 }
