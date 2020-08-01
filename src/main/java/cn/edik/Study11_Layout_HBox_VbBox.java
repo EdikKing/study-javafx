@@ -38,7 +38,7 @@ public class Study11_Layout_HBox_VbBox extends Application {
 
         HBox hBox = new HBox();
         hBox.setStyle("-fx-background-color: #3498DB");
-        hBox.setPrefWidth(400);
+        hBox.setPrefWidth(anchorPane.getWidth()/2);
         hBox.setPrefHeight(400);
         hBox.setPadding(new Insets(10));
         hBox.setSpacing(10);
@@ -55,7 +55,7 @@ public class Study11_Layout_HBox_VbBox extends Application {
 
         VBox vBox = new VBox();
         vBox.setStyle("-fx-background-color: #F39C12");
-        vBox.setPrefWidth(400);
+        vBox.setPrefWidth(anchorPane.getWidth()/2);
         vBox.setPrefHeight(400);
         vBox.setPadding(new Insets(10));
         vBox.setSpacing(10);

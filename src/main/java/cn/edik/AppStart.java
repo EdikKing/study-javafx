@@ -15,7 +15,8 @@ public class AppStart {
 //        Study9_Input.main(args);
 //        Study10_Layout_AnchorPane.main(args);
 //        Study10_Layout_AnchorPane2.main(args);
-        Study11_Layout_HBox_VbBox.main(args);
+//        Study11_Layout_HBox_VbBox.main(args);
+        Study12_Layout_BorderPane.main(args);
     }
 
 }
