@@ -12,6 +12,7 @@ import javafx.stage.Stage;
 public class Study13_Layout_FlowPane extends Application {
     public static void main(String[] args) {
         launch(args);
+//        Application.launch(args);
     }
 
     @Override
