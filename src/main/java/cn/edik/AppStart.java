@@ -19,7 +19,11 @@ public class AppStart {
 //        Study12_Layout_BorderPane.main(args);
 //        Study13_Layout_FlowPane.main(args);
 //        Study14_Layout_GridPane.main(args);
-        Study15_Layout_StackPane.main(args);
+//        Study15_Layout_StackPane.main(args);
+
+        TaskDemo.main(args);
+
+
     }
 
 }
