@@ -20,12 +20,11 @@ public class AppStart {
 //        Study13_Layout_FlowPane.main(args);
 //        Study14_Layout_GridPane.main(args);
 //        Study15_Layout_StackPane.main(args);
+//        Study16_Layout_TextFlow.main(args);
 
         TaskDemo.main(args);
 
 
-//        Study15_Layout_StackPane.main(args);
-//        Study16_Layout_TextFlow.main(args);
     }
 
 }
